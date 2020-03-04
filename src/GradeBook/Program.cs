@@ -29,8 +29,11 @@ namespace GradeBook
             book.AddGrade(12.7);
             book.AddGrade(17.2);
             book.AddGrade(14.3);
-            book.ShowStatistics();
+            var stats = book.GetStatistics();
 
+            Console.WriteLine($"The lowest grde is {stats.Low}");
+            Console.WriteLine($"The Highest grde is {stats.High}");
+            Console.WriteLine($"The lowest grde is {stats.Average:N1}");
 
             // List<double> grades = new List<double>() { 12.7, 17.2, 14.3 };
             // grades.Add(55.8);
@@ -56,15 +59,15 @@ namespace GradeBook
             // System.Console.WriteLine($"Lowest grade is {lowGrade}");
             // System.Console.WriteLine($"Highest grade is {highGrade}");
 
-            if (args.Length > 0)
-            {
-                Console.WriteLine("Hello " + args[0] + "!");
-                Console.WriteLine($"Hello, {args[0]}!");
-            }
-            else
-            {
-                Console.WriteLine("Hello");
-            }
+            //if (args.Length > 0)
+            //{
+            //    Console.WriteLine("Hello " + args[0] + "!");
+            //    Console.WriteLine($"Hello, {args[0]}!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Hello");
+            //}
         }
     }
 }

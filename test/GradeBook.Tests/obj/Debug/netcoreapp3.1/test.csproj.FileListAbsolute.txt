@@ -92,3 +92,5 @@
 /Users/debbieurquhart/C#/gradeBook/test/GradeBook.Tests/obj/Debug/netcoreapp3.1/test.csproj.CopyComplete
 /Users/debbieurquhart/C#/gradeBook/test/GradeBook.Tests/obj/Debug/netcoreapp3.1/test.dll
 /Users/debbieurquhart/C#/gradeBook/test/GradeBook.Tests/obj/Debug/netcoreapp3.1/test.pdb
+/Users/debbieurquhart/C#/gradeBook/test/GradeBook.Tests/bin/Debug/netcoreapp3.1/GradeBook.dll
+/Users/debbieurquhart/C#/gradeBook/test/GradeBook.Tests/bin/Debug/netcoreapp3.1/GradeBook.pdb
